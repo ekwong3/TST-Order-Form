@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>The Sweet Tong</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Order Form" />
+  <meta property="og:site_name" content="The Sweet Tong" />
+  <meta property="og:title" content="The Sweet Tong" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="Order Form" />
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,400italic,600,600italic%7CInter:300,300italic" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="css/img_popup.css">
+  <link rel="stylesheet" href="css/cart_popup.css">
+  <link rel="stylesheet" href="css/main.css"/>
+  <link rel="icon" type="image/x-icon" href="img/favicon.png">
+  <noscript><link rel="stylesheet" href="css/noscript.css" /></noscript>
+  <script src="js/order.js"></script>
+</head>
+<body class="is-loading">
+  <div id="wrapper">
+    <div id="main">
+      <div class="inner">
+        <div id="image02" class="style1 image" data-position="center">
+          <span class="frame"><img src="img/image02.jpg" alt="" /></span>
+        </div>
+        <p id="text03" class="style3"><span class="p"><strong>Order Form</strong></span><span class="p">Red Bean Filling</span></p>
+        <div id="gallery04" class="gallery">
+          <div class="inner">
+            <ul>
+              <!-- Inside the Gallery -->
+               <!-- Panda -->
+              <li>
+                <span class="frame">
+                  <img class="clickable" src="img/panda.jpg" alt="Panda" onclick="imgClicked('panda')" >
+                </span>
+                <div class="caption">
+                  <p>Panda</p>
+                  <p id="pandaSold" class="style3" style="color: red">SOLD OUT</p>
+                </div>
+              </li>
+              <!-- Kirby -->
+              <li>
+                <span class="frame">
+                  <img class="clickable" src="img/kirby.jpg" alt="Kirby" onclick="imgClicked('kirby')"/>
+                </span>
+                <div class="caption">
+                  <p>Kirby</p>
+                  <p id="kirbySold" class="style3" style="color: red">SOLD OUT</p>
+                </div>
+              </li><li>
+                <span class="frame">
+                  <img class="clickable" src="img/bear.jpg" alt="Polar Bear" onclick="imgClicked('bear')"/>
+                </span>
+                <div class="caption">
+                  <p>Polar Bear</p>
+                  <p id="bearSold" class="style3" style="color: red">SOLD OUT</p>
+                </div>
+              </li><li>
+                <span class="frame">
+                  <img class="clickable" src="img/bee.jpg" alt="Bumble Bee" onclick="imgClicked('bee')"/>
+                </span>
+                <div class="caption">
+                  <p>Bumble Bee</p>
+                  <p id="beeSold" class="style3" style="color: red">SOLD OUT</p>
+                </div>
+              </li><li>
+                <span class="frame">
+                  <img class="clickable" src="img/tiger.png" alt="Tiger" onclick="imgClicked('tiger')"/>
+                </span>
+                <div class="caption">
+                  <p>Tiger</p>
+                  <p id="tigerSold" class="style3" style="color: red">SOLD OUT</p>
+                </div>
+              </li><li>
+                <span class="frame">
+                  <img class="clickable" src="img/hk_red.png" alt="Hello Kitty-Bow" onclick="imgClicked('hk_red')"/>
+                </span>
+                <div class="caption">
+                  <p>Hello Kitty</p>
+                  <p id="hk_redSold" class="style3" style="color: red">SOLD OUT</p>
+                </div>
+              </li><li>
+                <span class="frame">
+                  <img class="clickable" src="img/dog.png" alt="Dog" onclick="imgClicked('dog')"/>
+                </span>
+                <div class="caption">
+                  <p>Dog</p>
+                  <p id="dogSold" class="style3" style="color: red">SOLD OUT</p>
+                </div>
+              </li><li>
+                <span class="frame">
+                  <img class="clickable" src="img/pig.jpg" alt="Pig" onclick="imgClicked('pig')"/>
+                </span>
+                <div class="caption">
+                  <p>Pig</p>
+                  <p id="pigSold" class="style3" style="color: red">SOLD OUT</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <p id="text08" class="style3">Egg Yolk Filling</p>
+        <div id="gallery02" class="gallery">
+          <div class="inner">
+            <ul>
+              <li>
+                <span class="frame">
+                  <img class="clickable" src="img/lion.jpg" alt="Lion" onclick="imgClicked('lion')"/>
+                </span>
+                <div class="caption">
+                  <p>Lion</p>
+                  <p id="lionSold" class="style3" style="color: red">SOLD OUT</p>
+                </div>
+              </li><li>
+                <span class="frame">
+                  <img class="clickable" src="img/snoopy.jpg" alt="Snoopy" onclick="imgClicked('snoopy')"/>
+                </span>
+                <div class="caption">
+                  <p>Snoopy</p>
+                  <p id="snoopySold" class="style3" style="color: red">SOLD OUT</p>
+                </div>
+              </li><li>
+                <span class="frame">
+                  <img class="clickable" src="img/hk_yellow.jpg" alt="Hello Kitty-Yellow" onclick="imgClicked('hk_yellow')"/>
+                </span>
+                <div class="caption">
+                  <p>Hello Kitty</p>
+                  <p id="hk_yellowSold" class="style3" style="color: red">SOLD OUT</p>
+                </div>
+              </li><li>
+                <span class="frame">
+                  <img class="clickable" src="img/pikachu.png" alt="Pikachu" onclick="imgClicked('pikachu')"/>
+                </span>
+                <div class="caption">
+                  <p>Pikachu</p>
+                  <p id="pikachuSold" class="style3" style="color: red">SOLD OUT</p>
+                </div>
+              </li><li>
+                <span class="frame">
+                  <img class="clickable" src="img/winnie.jpg" alt="Winnie" onclick="imgClicked('winnie')"/>
+                </span>
+                <div class="caption">
+                  <p>Winnie</p>
+                  <p id="winnieSold" class="style3" style="color: red">SOLD OUT</p>
+                </div>
+              </li><li>
+                <span class="frame">
+                  <img class="clickable" src="img/piggie.jpg" alt="Piggie" onclick="imgClicked('piggie')"/>
+                </span>
+                <div class="caption">
+                  <p>Piggie</p>
+                  <p id="piggieSold" class="style3" style="color: red">SOLD OUT</p>
+                </div>
+              </li><li>
+                <span class="frame">
+                  <img class="clickable" src="img/cow.jpg" alt="Cow" onclick="imgClicked('cow')"/>
+                </span>
+                <div class="caption">
+                  <p>Cow</p>
+                  <p id="cowSold" class="style3" style="color: red">SOLD OUT</p>
+                </div>
+              </li><li>
+                <span class="frame">
+                  <img class="clickable" src="img/rilakkuma.png" alt="Rilakkuma" onclick="imgClicked('rilakkuma')"/>
+                </span>
+                <div class="caption">
+                  <p>Rilakkuma</p>
+                  <p id="rilakkumaSold" class="style3" style="color: red">SOLD OUT</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <p id="text01" class="style3">No Filling</p>
+        <div id="gallery02" class="gallery">
+          <div class="inner">
+            <ul>
+              <li>
+                <span class="frame">
+                  <img class="clickable" src="img/apple.jpg" alt="Apple" onclick="imgClicked('apple')"/>
+                </span>
+                <div class="caption">
+                  <p>Apple</p>
+                  <p id="appleSold" class="style3" style="color: red">SOLD OUT</p>
+                </div>
+              </li><li>
+                <span class="frame">
+                  <img class="clickable" src="img/orange.png" alt="Orange" onclick="imgClicked('orange')"/>
+                </span>
+                <div class="caption">
+                  <p>Orange</p>
+                  <p id="orangeSold" class="style3" style="color: red">SOLD OUT</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <hr id="divider01" class="style1 full screen">     
+        
+        
+        <!--  -->
+        <!-- MODALS -->
+        <!--  -->
+        
+        <!-- ORDERING MODAL -->
+        <div id="orderScreen" class="imgModal">
+
+          <div class="imgContent">
+
+            <div id="orderHeader">
+              <span id="orderClose">&times;</span>
+              <h1 id="white" class="style2 shorter"><span id="currentBao"><script>displayBao()</script></span></h1>
+            </div>
+
+            <div id="orderBody">
+              <span id="baoImage"></span>
+              <ul id="icons08" class="style1 icons">
+                <li>
+                  <a class="n01" onclick="decreaseCount(); return false;">
+                    <img src="img/minus.svg" width="50%" height="50%">
+                    <span class="label">Minus</span>
+                  </a>
+                  <br>
+                </li>
+                <li class="counter">
+                  <p class="style4">Count: <span id="count"><script>getCount();</script></span></p>
+                </li>
+                <li>
+                  <a class="n01" onclick="increaseCount(); return false;">
+                    <img src="img/plus.svg" width="50%" height="50%">
+                    <span class="label">Plus (Light)</span>
+                  </a>
+                  <br>
+                </li>
+              </ul>
+              <form enctype="multipart/form-data" id="form01" method="post" action="#" onclick="return false;">
+                <div class="inner">
+                  <div class="field">
+                    <select name="frozen-steamed" id="form01-frozen-steamed" required onchange="changeSteamed();">
+                      <option value="value1">&ndash; Frozen &ndash;</option>
+                      <option value="value2">&ndash; Steamed &ndash;</option>
+                    </select>
+                  </div>
+                </div>
+              </form>
+            </div>
+            
+          </div>
+
+        </div>
+
+        <!-- CART MODAL -->
+        <ul id="submit" class="style1 buttons">
+          <li>
+            <a onclick="calculatePrice(); displayCart(); return false;" class="button n01">Check Out</a>
+          </li>
+        </ul>
+        <div id="cartScreen" class="cartModal">
+          <div class="cartContent">
+            <div class="cartHeader">
+              <span id="cartClose">&times;</span>
+              <h1 class="style2 shorter">Cart</h1>
+            </div>
+            <div class="cartBody">
+              <span id="currentCart">
+                <table>
+                  <tr>
+                    <td id=1></td>
+                    <td id=0></td>
+                    <td id=2></td>
+                  </tr>
+                  <tr>
+                    <td id=4></td>
+                    <td id=3></td>
+                    <td id=5></td>
+                  </tr>
+                  <tr>
+                    <td id=7></td>
+                    <td id=6></td>
+                    <td id=8></td>
+                  </tr>
+                </table>
+              </span>
+              <br>
+              <span id="price"></span>
+              <br>
+              <form action="" method="POST" id="form02">
+                <div> 
+                  <input type="text" id="name" name="name" 
+                    placeholder="Name" required/>
+                </div>
+                <div>
+                  <input type="text" id="instructions" name="instructions"
+                    placeholder="Special Instructions">
+                </div>
+                <div>
+                  <select id="payment" name="payment">
+                    <option value="" disabled selected>Form of Payment</option>
+                    <option value="cash">Cash</option>
+                    <option value="venmo">Venmo</option>
+                    <option value="paypal">PayPal</option>
+                    <option value="zelle">Zelle</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+                <div>
+                  <input type="hidden" id="cart" name="cart" value="">
+                </div>
+                <div>
+                  <input type="hidden" id="counts" name="counts" value=""/>
+                </div>
+                <div>
+                  <button id="confirm" onclick="confirmOrder()" type="submit">Confirm Order!</button>
+                </div>
+              </form>
+            </div>
+
+            <div class="cartFooter">
+              <h2 class="style2">Thank you for shopping at The Sweet Tong!</h2>
+            </div>
+        </div>
+
+      </div>
+
+        <hr id="divider04" class="style1 full screen">
+        <ul id="icons02" class="style1 icons">
+          <li>
+            <a class="n01" href="" onclick="return false;">
+              <svg xmlns="img/icons.svg">
+                <use xlink:href="#etsy"></use>
+              </svg>
+              <span class="label">Etsy</span>
+            </a>
+          </li><li>
+            <a class="n02" href="https://www.instagram.com/thesweettong/" target="_blank">
+              <img src="img/insta_logo.png" width="70%" height="70%">
+              <span class="label">Instagram</span>
+            </a>
+          </li><li>
+            <a class="n03" href="" onclick="return false;">
+              <svg xmlns="img/icons.svg">
+                <use xlink:href="#twitter"></use>
+              </svg>
+              <span class="label">Twitter</span>
+            </a>
+          </li><li>
+            <a class="n04" href="mailto:user@domain.ext" onclick="return false;">
+              <svg xmlns="img/icons.svg">
+                <use xlink:href="#email-alt"></use>
+              </svg>
+              <span class="label">Email (Alt)</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- <script src="js/ordering.js"></script> -->
+  <script src="js/modals.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    setTotals(<%= quantities %>); 
+    clear();
+  </script>
+</body>
+</html>
